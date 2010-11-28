@@ -13,8 +13,8 @@ Installation
 
 Place "kernel.bin" in the data/ folder of the project.
 
-kernel.bin can be downloaded here:
-http://marcansoft.com/transf/dtbImage-20101020.bin
+kernel.bin can be downloaded
+[here](http://marcansoft.com/transf/dtbImage-20101020.bin)
 ([Instructions](http://marcansoft.com/blog/2010/10/asbestos-running-linux-as-gameos/))
 
 Just run *make* to build Hermes' stage2 and the self. Then *make run* it
