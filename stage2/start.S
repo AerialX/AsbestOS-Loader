@@ -139,8 +139,8 @@ _bss_loop:
 	li      %r11, 0xFF
         sc	1
 
-	.global kload
-kload:
+	.global .kload
+.kload:
 	mfmsr %r5
 	# disable interrupts
 	rldicl %r5, %r5, 48, 1
@@ -177,8 +177,8 @@ _move_loop:
 
 	blr
 	
-	.global klaunch
-klaunch:
+	.global .klaunch
+.klaunch:
 	ba 0x100
 
 

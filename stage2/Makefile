@@ -1,6 +1,6 @@
 TARGET= asbestos
 
-PS3_COMPILERS= $(PS3DEV)/ppu/bin
+PS3_COMPILERS= $(PS3DEV)/host/ppu/bin
 
 PPU_CC = $(PS3_COMPILERS)/ppu-gcc
 PPU_OBJCOPY = $(PS3_COMPILERS)/ppu-objcopy
